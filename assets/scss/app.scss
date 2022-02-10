@@ -1,0 +1,63 @@
+// override all variables first
+$primary: #2A3E59;
+$secondary: #A4A66A;
+$tertiary: #F2D888;
+$quaternary: #D3CDB7;
+$quinary: #F2F2F2;
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "tertiary": $tertiary,
+        "quaternary": $quaternary,
+        "quinary": $quinary,
+);
+
+$display4-size: 47px;
+$display4-weight: bold;
+$progress-bg: $secondary;
+$input-btn-focus-color: $tertiary;
+$input-focus-border-color: $tertiary;
+$nav-tabs-link-active-color: $primary;
+//$nav-tabs-link-active-bg: $primary;
+
+
+
+// import boostrap library
+@import "bootstrap/bootstrap";
+
+.lead {
+  font-size: 23px;
+  font-weight: 400;
+}
+#rvTrailerCard {
+  border: 0;
+  background-color: $quinary;
+}
+#workEligibilityCard {
+  border: 0;
+  background-color: $quinary;
+}
+#workExperienceCard {
+  border: 0;
+  background-color: $quinary;
+}
+#educationCard {
+  border: 0;
+  background-color: $quinary;
+}
+.card {
+border: solid 3px $secondary;
+}
+.tab-content {
+  background-color: $quinary;
+}
+.nav-tabs {
+  font-weight: 600;
+  font-size: 18px;
+}
+.jumbotron-fluid {
+  border-bottom: solid 3px $tertiary;
+  border-top: solid 3px $secondary;
+}
+
